@@ -1,0 +1,78 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hitha Palepu Donation</title>
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#f4f7f5;color:#111;line-height:1.6}
+.hero{background:linear-gradient(135deg,#0f5132,#1d7a3e,#e9f6ee);color:#fff;padding:90px 20px;text-align:center}
+.container{max-width:1100px;margin:auto;padding:40px 20px}
+.card,.stat,.story{background:#fff;border:1px solid #e7eee7;border-radius:24px;padding:28px;box-shadow:0 12px 35px rgba(0,0,0,.06)}
+h1{font-size:56px;margin:10px 0}
+h2{font-size:34px;margin:0 0 12px}
+p.lead{font-size:22px;max-width:760px;margin:0 auto;color:#eefaf1}
+.btn{display:inline-block;margin:10px;padding:15px 30px;border-radius:999px;text-decoration:none;background:#fff;color:#14532d;font-weight:bold}
+.btn.dark{background:#111;color:#fff}
+.pay-grid,.stats,.stories{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px;margin-top:24px}
+.box{border:1px solid #e7eee7;border-radius:18px;padding:22px;background:#fcfffc}
+.small{font-size:14px;color:#666;word-break:break-all}
+.progress{height:14px;background:#e5ece6;border-radius:999px;overflow:hidden;margin:14px 0}.bar{height:100%;width:68%;background:#1d7a3e}
+.section-title{text-align:center;margin-top:40px}
+footer{margin-top:40px;color:#666;font-size:14px;text-align:center;padding:30px}
+</style>
+</head>
+<body>
+<div class="hero">
+<div style="font-size:14px;font-weight:bold;letter-spacing:1px;color:#1d7a3e;">NONPROFIT SUPPORT INITIATIVE</div>
+<h1>Hitha Palepu Foundation</h1>
+<p class="lead">Helping the poor in need through compassion, food support, shelter assistance, and community care.</p>
+<a href="#donate" class="btn">Support Our Mission</a>
+<a href="#impact" class="btn" style="background:#111;">See Our Impact</a>
+<a href="#stories" class="btn dark">Success Stories</a>
+</div>
+<div class="container"><div class="section-title" id="impact"><h2>Our Global Impact</h2><p>Transparent results powered by generous supporters.</p></div><div class="stats" id="impact">
+<div class="stat"><strong>Food Relief</strong><br>Helping families in need<br><small>1,200+ meals supported</small></div>
+<div class="stat"><strong>Shelter Aid</strong><br>Emergency support<br><small>300+ people assisted</small></div>
+<div class="stat"><strong>Community Care</strong><br>Direct assistance<br><small>Ongoing outreach programs</small></div>
+</div>
+<div class="section-title"><h2>Funding Progress</h2><p>Current campaign goal: Support families with food and shelter.</p></div><div class="card"><div class="progress"><div class="bar"></div></div><strong>68% of monthly goal reached</strong></div><div class="card" id="donate">
+<h2>Donate Today</h2><p><strong>Automatic donor receipts:</strong> Supporters receive confirmation receipts by email after successful payments when payment provider settings are enabled.</p><p><strong>Secure payments available:</strong> Bitcoin, Bank Transfer, PayPal, Cash App, and Paystack Checkout.</p><p><strong>International Support:</strong> Donate in USD and other supported currencies worldwide.</p><p>Every contribution helps us expand support to vulnerable families.</p>
+<p>Your support can help provide food, shelter, education, and emergency assistance.</p>
+<div class="pay-grid">
+<div class="box">
+<h3>Bitcoin (BTC)</h3><p><img src='https://api.qrserver.com/v1/create-qr-code/?size=120x120&data=bc1qvt6vdw28c32n567qkrsdacg50zeq2vxyngshxs' alt='BTC QR'></p>
+<p class="small">bc1qvt6vdw28c32n567qkrsdacg50zeq2vxyngshxs</p>
+</div>
+<div class="box">
+<h3>Bank Payment</h3>
+<p class="small">Add your bank name, account name, and account number here.</p>
+</div>
+<div class="box">
+<h3>PayPal</h3>
+<p class="small">Add your PayPal.Me link or PayPal email here.</p>
+</div>
+<div class="box">
+<h3>Auto Donor Receipts</h3>
+<p class="small">Instant email confirmations and payment receipts sent automatically after successful donations.</p>
+</div>
+<div class="box">
+<h3>USD International Donations</h3>
+<p class="small">Support from anywhere in the world using USD and supported global currencies.</p>
+<a href="#" class="btn dark">Donate in USD</a>
+</div>
+<div class="box">
+<h3>Paystack Card Payment</h3>
+<p class="small">Accept Visa, Mastercard, Apple Pay, and secure card donations via Accept Visa, Mastercard, Verve, bank transfer, and secure card donations via Accept Visa, Mastercard, Apple Pay, and secure card donations via Accept Visa, Mastercard, Verve, bank transfer, and secure card donations via Paystack. Add your Paystack payment link here.</p>
+<a href="#" class="btn dark">Pay with Paystack</a>
+</div>
+<div class="box">
+<h3>Cash App</h3>
+<p class="small">Add your $Cashtag here.</p>
+</div>
+</div>
+<a href="#" class="btn">Donate Now</a>
+</div><div class="section-title" id="stories"><h2>Stories of Hope</h2><p>Real support creates real change.</p></div><div class="stories"><div class="story"><strong>Family Relief</strong><br>A family received emergency food support during hardship.</div><div class="story"><strong>Shelter Support</strong><br>Temporary housing assistance provided to those in urgent need.</div><div class="story"><strong>Community Outreach</strong><br>Volunteers delivered aid directly to local neighborhoods.</div></div>
+<footer>Please ensure all payment details belong to you or your organization and accurately describe how funds are used.</footer>
+</div>
+</body>
+</html>
